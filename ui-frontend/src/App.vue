@@ -1,14 +1,17 @@
 <template>
   <UiButton/>
+  <Logo>
 </template>
 
 <script>
 import UiButton from './stories/components/UiButton';
+import Logo from '../../content-el-frontend/nuxt-app/components/Logo/Logo';
 
 export default {
   name: 'App',
   components: {
-    UiButton
+    UiButton,
+    Logo
   }
 }
 </script>
